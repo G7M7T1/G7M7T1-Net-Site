@@ -84,17 +84,14 @@ body {
         padding: 1rem 2rem;
         border-radius: 10px;
         transition: all 0.6s;
-
-        a {
-            text-decoration: none;
-        }
+        cursor: pointer;
     }
 
-    button:hover {
-        background-color: white;
 
-        a {
+    a:hover {
+        button {
             color: black;
+            background-color: white;
         }
     }
 }
